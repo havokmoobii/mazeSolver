@@ -57,7 +57,6 @@ class Cell:
         return self.__win is not None
 
     def draw_move(self, to_cell, undo=False):
-        print("hi")
         color = "red"
         if undo:
             color = "gray"

@@ -15,6 +15,10 @@ def main():
     win = Window(WINDOW_LENGTH, WINDOW_WIDTH)
 
     maze = Maze(MAZE_X, MAZE_Y, ROWS, COLS, CELL_LENGTH, CELL_WIDTH, win)
+    if maze.solve():
+        print("Success!")
+    else:
+        print("WTF")
 
     win.wait_for_close()
 
