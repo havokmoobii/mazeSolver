@@ -1,5 +1,3 @@
-import time
-
 from window import Window
 from maze import Maze
 
@@ -7,8 +5,8 @@ WINDOW_LENGTH = 800
 WINDOW_WIDTH = 600
 MAZE_X = 40
 MAZE_Y = 40
-ROWS = 15
-COLS = 15
+ROWS = 26
+COLS = 36
 CELL_LENGTH = 20
 CELL_WIDTH = 20
 
